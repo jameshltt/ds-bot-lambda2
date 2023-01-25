@@ -1,16 +1,27 @@
 # ds-bot-lambda2
 
-This repository is the second Lambda function used in the repository https://github.com/jameshltt/ds-bot-lambda. It receives the input event from the first function and uses the text-davinci-003 model to generate an answer for the Discord user.
+ds-bot-lambda2 is the second Lambda function used in the repository [ds-bot-lambda](https://github.com/jameshltt/ds-bot-lambda). It receives the input event from the first function and uses the OpenAI text-davinci-003 model to generate an answer for the discord user.
 
-## Getting Started
+## Requirements
 
-Clone this repository and follow the instructions in the README file in the ds-bot-lambda repository (https://github.com/jameshltt/ds-bot-lambda).
+* Node.js version 16.x
+* OpenAI text-davinci-003 model
 
-## Built With
+## Installation
 
-* [AWS Lambda](https://aws.amazon.com/lambda/)
-* [text-davinci-003 model](https://github.com/jameshltt/text-davinci-003)
+1. Clone or download this repository.
+2. Install dependencies: `npm install`
+
+## Usage
+
+1. Deploy the first Lambda function (ds-bot-lambda).
+2. Deploy this Lambda function (ds-bot-lambda2).
+3. Integrate the functions into your Discord bot.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+[MIT](https://choosealicense.com/licenses/mit/)
